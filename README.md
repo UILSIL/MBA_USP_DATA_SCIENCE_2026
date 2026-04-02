@@ -7,6 +7,8 @@ RESUMO:
  
  A metodologia extraiu pontuações de anomalia e agrupamento via K-Means, Modelos de Mistura Gaussiana, erro de reconstrução via Análise de Componentes Principais e Fator de Outlier Local, concatenando-os aos atributos originais. Avaliou-se o desempenho da abordagem híbrida em dados sintéticos e em uma base real de mamografia, utilizando métricas robustas à assimetria, como PR-AUC e F1-Score. Os resultados demonstraram que a adição de variáveis não supervisionadas aprimorou substancialmente a Regressão Logística nos dados reais, gerando aumentos de 29,1% no F1-Score e 20,2% no PR-AUC em relação à linha de base, superando o método SMOTE sem comprometer a calibração probabilística. Em contrapartida, o modelo de árvores de decisão não apresentou ganhos significativos, indicando redundância, pois sua estrutura já captura relações não lineares internamente. Concluiu-se que o enriquecimento do espaço de atributos com representações não supervisionadas configurou-se como uma estratégia promissora e adaptativa para a otimização de modelos lineares em contextos de alto desbalanceamento, conciliando eficiência preditiva e interpretabilidade.
 
+
+
 Referências:
  
 Bishop, C.M. 2006. Pattern Recognition And Machine Learning. Springer, New York, NY, USA.
